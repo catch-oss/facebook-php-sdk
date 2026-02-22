@@ -58,7 +58,7 @@ class SessionPersistentDataHandler implements PersistentDataInterface
 	/**
 	 * {@inheritdoc}
 	 */
-	public function set($key, $value): void
+	public function set(string $key, mixed $value): void
 	{
 		$_SESSION[$this->sessionPrefix . $key] = $value;
 	}
