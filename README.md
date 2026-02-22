@@ -37,6 +37,7 @@ For example: Using with Guzzle:
 | 0.2     | ^8.1 |
 | 0.3     | ^8.1 |
 | 0.4     | ^8.3 |
+| release/6 | >=8.3 (including 8.5) |
 
 ## Usage
 

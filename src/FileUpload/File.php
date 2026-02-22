@@ -36,7 +36,7 @@ use function Safe\stream_get_contents;
 class File
 {
 	/** @var resource the stream pointing to the file */
-	protected $stream;
+	protected mixed $stream;
 
 
 	/**
