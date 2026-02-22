@@ -1,14 +1,19 @@
 # Facebook SDK for PHP
 
-[![Composer](https://github.com/janu-software/facebook-php-sdk/actions/workflows/composer.yml/badge.svg)](https://github.com/janu-software/facebook-php-sdk/actions/workflows/composer.yml)
-[![Code style](https://github.com/janu-software/facebook-php-sdk/actions/workflows/code_style.yml/badge.svg)](https://github.com/janu-software/facebook-php-sdk/actions/workflows/code_style.yml)
-[![Tester](https://github.com/janu-software/facebook-php-sdk/actions/workflows/phpunit.yml/badge.svg)](https://github.com/janu-software/facebook-php-sdk/actions/workflows/phpunit.yml)
-[![PhpStan](https://github.com/janu-software/facebook-php-sdk/actions/workflows/static_analysis.yml/badge.svg)](https://github.com/janu-software/facebook-php-sdk/actions/workflows/static_analysis.yml)
-
-[![Latest Stable Version](https://poser.pugx.org/janu-software/facebook-php-sdk/v/stable)](https://packagist.org/packages/janu-software/facebook-php-sdk)
-[![Total Downloads](https://poser.pugx.org/janu-software/facebook-php-sdk/downloads)](https://packagist.org/packages/janu-software/facebook-php-sdk)
-[![License](https://poser.pugx.org/janu-software/facebook-php-sdk/license)](https://packagist.org/packages/janu-software/facebook-php-sdk)
-[![Coverage Status](https://coveralls.io/repos/github/janu-software/facebook-php-sdk/badge.svg?branch=main)](https://coveralls.io/github/janu-software/facebook-php-sdk?branch=main)
+<!-- PROJECT SHIELDS -->
+[![SonarCloud](https://github.com/catch-oss/facebook-php-sdk/actions/workflows/sonar.yml/badge.svg)](https://github.com/catch-oss/facebook-php-sdk/actions/workflows/sonar.yml)
+[![Test](https://github.com/catch-oss/facebook-php-sdk/actions/workflows/test.yml/badge.svg)](https://github.com/catch-oss/facebook-php-sdk/actions/workflows/test.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=catch-design_catch-oss-facebook-php-sdk&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=catch-design_catch-oss-facebook-php-sdk)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=catch-design_catch-oss-facebook-php-sdk&metric=bugs)](https://sonarcloud.io/component_measures?id=catch-design_catch-oss-facebook-php-sdk)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=catch-design_catch-oss-facebook-php-sdk&metric=code_smells)](https://sonarcloud.io/component_measures?id=catch-design_catch-oss-facebook-php-sdk)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=catch-design_catch-oss-facebook-php-sdk&metric=coverage)](https://sonarcloud.io/component_measures?id=catch-design_catch-oss-facebook-php-sdk)
+[![Duplicated Lines Density](https://sonarcloud.io/api/project_badges/measure?project=catch-design_catch-oss-facebook-php-sdk&metric=duplicated_lines_density)](https://sonarcloud.io/component_measures?id=catch-design_catch-oss-facebook-php-sdk)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=catch-design_catch-oss-facebook-php-sdk&metric=ncloc)](https://sonarcloud.io/component_measures?id=catch-design_catch-oss-facebook-php-sdk)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=catch-design_catch-oss-facebook-php-sdk&metric=reliability_rating)](https://sonarcloud.io/component_measures?id=catch-design_catch-oss-facebook-php-sdk)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=catch-design_catch-oss-facebook-php-sdk&metric=security_rating)](https://sonarcloud.io/component_measures?id=catch-design_catch-oss-facebook-php-sdk)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=catch-design_catch-oss-facebook-php-sdk&metric=sqale_index)](https://sonarcloud.io/component_measures?id=catch-design_catch-oss-facebook-php-sdk)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=catch-design_catch-oss-facebook-php-sdk&metric=sqale_rating)](https://sonarcloud.io/component_measures?id=catch-design_catch-oss-facebook-php-sdk)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=catch-design_catch-oss-facebook-php-sdk&metric=vulnerabilities)](https://sonarcloud.io/component_measures?id=catch-design_catch-oss-facebook-php-sdk)
 
 This repository contains the open source PHP SDK that allows you to access the Facebook Platform from your PHP app. Based on `facebookarchive/php-graph-sdk` v6.
 
